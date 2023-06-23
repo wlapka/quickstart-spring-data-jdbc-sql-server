@@ -1,10 +1,9 @@
 package com.example.demo;
 
+import com.example.demo.model.Todo;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
-@RestController
-@RequestMapping("/")
 public class TodoController {
 
     private final TodoRepository todoRepository;
